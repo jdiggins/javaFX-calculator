@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 5, 2017, 3:42:46 PM
+    Author     : John
+*/
+
+.n_button {
+    -fx-font: 36px "Ariel";
+    -fx-text-fill: #333333;
+    -fx-background-color: #cccccc;
+    -fx-background-insets: 2 2 2 2 ;
+   -fx-background-radius: 1 1 1 1;
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 2, 0.0 , 0 , 1 );
+}
+.n_button:hover{
+    -fx-background-color:#333333;
+    -fx-text-fill: #ffffff;
+}
+.n_button:pressed{
+    -fx-background-color: #666666;
+    -fx-text-fill: #ffffff;
+}
+
+.op_button {
+    -fx-font: 36px "Ariel";
+    -fx-text-fill: #ffffff;
+    
+    -fx-background-color: #333333;
+    -fx-background-insets: 2 2 2 2 ;
+   -fx-background-radius: 1 1 1 1;
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 2, 0.0 , 0 , 1 );
+}
+.op_button:hover{
+    -fx-background-color:#cccccc;
+    -fx-text-fill: #333333;
+}
+.op_button:pressed{
+    -fx-background-color: #999999;
+    -fx-text-fill: #333333;
+}
+
+.e_button {
+    -fx-font: 48px "Ariel";
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #ff6600;
+    -fx-background-insets: 2 2 2 2 ;
+   -fx-background-radius: 1 1 1 1;
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 2, 0.0 , 0 , 1 );
+}
+.e_button:hover{
+    -fx-background-color: #ff9900;
+    -fx-text-fill: #ffffff;
+}
+.e_button:pressed{
+    -fx-background-color: #cc6600;
+    -fx-text-fill: #ffffff;
+}
+
+.button .text{
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
+.display {
+    -fx-font: 34px "Ariel";
+    -fx-text-fill: #333333;
+    -fx-focus-color: #ff6600;
+    -fx-faint-focus-color: transparent;
+        
+}
+.display .text{
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
